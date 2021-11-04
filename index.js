@@ -1,4 +1,31 @@
-alert("游戏不好玩，别看下去了");
-console.log(confirm("Starttttt？"));
-let input = prompt("输入你的名字");
-alert("你好" + input +"你被我通缉了");
+let student = {name:'alex',age: 18,gander: "Male"};
+//Object
+console.log(typeof student)
+console.log(student.name);
+let userPick='gander'
+console.log(student[userPick]);
+
+//Array
+let studentsAge = [13,16,15,17,19];
+
+console.log(typeof studentsAge);
+console.log(studentsAge.length);
+console.log(studentsAge)[5];
+
+//Function
+function saiHi(student){
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+    console.log("hi");
+}
+
+sayHi();
+sayHi();
